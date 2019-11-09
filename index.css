@@ -12,6 +12,7 @@ ul li{
 #imgWolf{
     width: 490px;
     height: 632px;
+    border: 8px solid black;
 }
 p{
     font-family: sans-serif;
@@ -21,4 +22,28 @@ p{
 }
 nav{
     background-color: black;
+}
+h1{
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+h4{
+    text-decoration: underline;
+}
+#imgDog{
+    border: 8px solid black;
+    margin: 0 40px;
+}
+#copyright{
+    text-align: center;
+    font-size: 15px;
+}
+.horLine{
+    color: black;
+}
+.weetje{
+    background-color: cadetblue;
+    border: 3px solid black;
+    font-family: serif;
+    text-align: center;
 }
