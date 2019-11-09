@@ -1,0 +1,17 @@
+nav{
+    background-color: black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+#btnSubmit{
+    border: 2px solid black;
+}
