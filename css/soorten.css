@@ -12,3 +12,16 @@ nav ul li{
     list-style: none;
     display: inline-block;
 }
+.horLine{
+    color: black;
+}
+#copyright{
+    text-align: center;
+    font-size: 15px;
+}
+h4{
+    text-decoration: underline;
+}
+#imgSoorten, #imgBelgie{
+    border: 8px solid black;
+}
