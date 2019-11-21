@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link type="text/css" rel="stylesheet" href="../css/contactformulier.css">
+        <link type="text/css" rel="stylesheet" href="../index.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css" crossorigin="anonymous">
         <title>My Favorite Animal - Contactformulier</title>
     </head>
@@ -9,38 +9,45 @@
         <header>
             <nav>
                 <ul>
+                    <li><img id="pawBalk" src="../img/dogPaw.png"/></li>
                     <li><a class="cell small-12" href="../index.html">Homepage</a></li>
                     <li><a class="cell small-12" href="soorten.html">Soorten</a></li>
                     <li><a class="cell small-12" href="media.html">Media</a></li>
                     <li><a class="cell small-12" href="contactformulier.html">Contact</a></li>
+                    <li><a class="cell small-12" href="spelletjes.html">Spelletjes</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <div class="grid-container">
                 <div class="grid-x">
+                    <div class="cell small-12">
+                        <h1 id="loginTxt">LOGIN</h1>
+                        <hr>
+                        <h5 id="meldTxt">Meld u aan</h5>
+                    </div>
                     <div class="cell large-3 medium-2 small-0">
-                        <img src="../img/posterDog.jpeg" alt="poster van een hond"/>
+                        <img id="formLeft" src="../img/posterDog.jpeg" alt="poster van een hond"/>
                     </div>
                     <div class="cell large-6 medium-8 small-12">
                         <form>
-                            <label>Voornaam:</label>
+                            <label class="tssTitel">Voornaam:</label>
                             <input type="text" required>
-                            <label>Achternaam:</label>
+                            <label class="tssTitel">Achternaam:</label>
                             <input type="text" required>
-                            <label>Hoe oud ben je?</label>
+                            <label class="tssTitel">Hoe oud ben je?</label>
                             <input type="number" required>
-                            <label>E-mail:</label>
+                            <label class="tssTitel">E-mail:</label>
                             <input type="email" required>
-                            <label>Password:</label>
+                            <label class="tssTitel">Password:</label>
                             <input type="password" required>
-                            <label>Secret Question: What is your favorite dog?</label>
+                            <label class="tssTitel">Secret Question: What is your favorite dog?</label>
                             <input type="text" required>
-                            <input type="submit">
+                            <input id="btnSubmit" type="submit">
                         </form>
                     </div>
                     <div class="cell large-3 medium-2 small-0">
-                        <img src="../img/posterDog2.jpeg" alt="poster van een hond"/>
+                        <img id="formRight" src="../img/posterDog2.jpeg" alt="poster van een hond"/>
                     </div>
                 </div>
             </div>

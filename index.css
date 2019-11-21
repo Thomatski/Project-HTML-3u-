@@ -1,6 +1,6 @@
 ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     margin: 0 10px;
     font-size: 26px;
     text-transform: capitalize;
@@ -8,38 +8,107 @@ ul li a{
 ul li{
     list-style: none;
     display: inline-block;
+    font-family: "Lucida Bright";
+}
+#pawBalk{
+    display: block;
+    width: 35px;
+    height: 35px;
 }
 #imgWolf{
     width: 490px;
     height: 632px;
-    border: 8px solid black;
+    border: 8px solid white;
+}
+main, footer{
+    background-color: black;
+}
+#loginTxt{
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0px;
+    font-family: "Raleway";
+}
+#meldTxt{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Courier New";
 }
 p{
     font-family: sans-serif;
+    color: white;
+}
+#quote{
+    text-align: center;
+}
+#hndRas li{
+    color: white;
+}
+#hfdGroepen li{
+    color: white;
 }
 *{
     margin: 0 0;
 }
 nav{
-    background-color: black;
+    background-color: white;
 }
-h1{
+.tssPart{
+    background-color: white;
+}
+#formLeft, #formRight{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.tssPart p{
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif, "Arial";
+}
+#imgSoorten, #imgBelgie{
+    border: 8px solid black;
+}
+#btnSubmit{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.titel{
     text-transform: capitalize;
     text-transform: uppercase;
+    color: white;
+    font-family: "Raleway";
 }
-h4{
+.tssTitel{
     text-decoration: underline;
+    color: white;
+    font-family: "Courier New";
 }
 #imgDog{
-    border: 8px solid black;
+    border: 8px solid white;
     margin: 0 40px;
 }
 #copyright{
     text-align: center;
     font-size: 15px;
+    color: white;
 }
 .horLine{
-    color: black;
+    color: white;
+}
+#afbHond{
+    width: 400px;
+    height: 200px;
+    margin: 0 10px;
+}
+#afbHondLaatst{
+    width: 400px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .weetje{
     background-color: cadetblue;
