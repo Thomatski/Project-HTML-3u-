@@ -11,7 +11,7 @@ ul li{
     font-family: "Lucida Bright";
 }
 #pawBalk{
-    display: block;
+    display: inline-block;
     width: 35px;
     height: 35px;
 }
@@ -19,6 +19,25 @@ ul li{
     width: 490px;
     height: 632px;
     border: 8px solid white;
+}
+#dogAgeCalc{
+    background-color: white;
+}
+#dogAgeCalc .titel{
+    color: black;
+}
+#uitvoerResultaat, #uitvoerQuote{
+    color: black;
+}
+#quotesDogGenerator{
+    background-color: white;
+}
+#quotesDogGenerator .titel{
+    color: black;
+}
+#btnBereken, #btnQuote{
+    border: 1px solid gray;
+    background-color: lightgray;
 }
 main, footer{
     background-color: black;
