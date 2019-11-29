@@ -19,24 +19,36 @@
             </nav>
         </header>
         <main>
-            <div id="dogAgeCalc">
-                <h3 class="titel">Dog Human Age Calculator</h3>
-                <select id="selHond">
-                    <option value="klein">Klein hond (-15 kg)</option>
-                    <option value="middelmatig">Middelmatig hond (15 - 45 kg)</option>
-                    <option value="groot">Groot hond (+45 kg)</option>
-                </select>
-                <input placeholder="Typ de leeftijd van je hond (1-11jaar)" type="number" id="inpLeeftijd" min="1" max="11">
-                <button id="btnBereken">Bereken</button>
-                <div id="uitLeeftijd">
-                    <p id="uitvoerResultaat"></p>
+            <div class="grid-container">
+                <div id="dogAgeCalc">
+                    <h3 class="titel">Dog Human Age Calculator</h3>
+                    <select id="selHond">
+                        <option value="klein">Klein hond (-15 kg)</option>
+                        <option value="middelmatig">Middelmatig hond (15 - 45 kg)</option>
+                        <option value="groot">Groot hond (+45 kg)</option>
+                    </select>
+                    <input placeholder="Typ de leeftijd van je hond (1-11jaar)" type="number" id="inpLeeftijd" min="1" max="11">
+                    <button id="btnBereken">Bereken</button>
+                    <div id="uitLeeftijd">
+                        <p id="uitvoerResultaat"></p>
+                    </div>
                 </div>
-            </div>
-            <div id="quotesDogGenerator">
-                <h3 class="titel">Dog Quotes Generator</h3>
-                <button id="btnQuote">Klik om te genereren</button>
-                <div>
-                    <p id="uitvoerQuote"></p>
+                <div id="quotesDogGenerator">
+                    <h3 class="titel">Dog Quotes Generator</h3>
+                    <button id="btnQuote">Klik om te genereren</button>
+                    <div>
+                        <p id="uitvoerQuote"></p>
+                    </div>
+                </div>
+                <div class="grid-x">
+                    <div id="doyouprefer">
+                        <h3 id="titelDoYouPrefer">Do You Prefer</h3>
+                        <hr id="horLineDYP">
+                        <h5 id="meldTxtDoYouPrefer">Klik op de afbeelding die je het liefst hebt</h5>
+                        <div class="cell medium-6 small-12">
+                            <img id="img1" alt="" src=""/><img id="img2" alt="" src=""/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -46,5 +58,6 @@
         </footer>
         <script src="../js/dogrealagecalculator.js"></script>
         <script src="../js/dogquotesgenerator.js"></script>
+        <script src="../js/doyouprefer.js"></script>
     </body>
 </html>
